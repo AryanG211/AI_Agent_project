@@ -60,22 +60,51 @@ This agent:
 
 ## 🛠 Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1) Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/RAG-Delivery-Agent.git
-cd RAG-Delivery-Agent
+git clone https://github.com/Mit-Gandhi/RAG-Based-Delivery-Agent.git
+cd RAG-Based-Delivery-Agent
+```
+### 2) Navigate to backend folder
+
+```bash
+cd backend
 ```
 
-### 2️⃣ Install Dependencies
+### 3) Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Set Environment Variables
+### 4) Set Environment Variables
 Create a .env file:
 
 ```bash
 GOOGLE_API_KEY=your_google_api_key
+```
+
+### 5) Run backend
+
+```bash
+uvicorn app:app --reload
+```
+
+### 6) Navigate to frontend folder
+
+```bash
+cd frontend
+```
+
+### 7) Install dependencies
+
+```bash
+npm install
+```
+
+### 8) Run frontend
+
+```bash
+npm run dev
 ```
