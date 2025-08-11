@@ -1,4 +1,4 @@
-<h1 align="center">📦 RAG-Based Delivery Agent</h1>
+<h1 align="center">RAG-Based Delivery Agent</h1>
 
 <p align="center">
   <em>Intelligent Delivery Assistant – Search, Understand, Respond.</em>
@@ -17,7 +17,7 @@
 
 ---
 
-## 🌐 Overview
+## Overview
 
 The **RAG-Based Delivery Agent** is an AI-powered voice-enabled assistant for delivery-related tasks.  
 It combines **Retrieval-Augmented Generation (RAG)** with **multilingual voice interaction** to answer delivery-related queries using a knowledge base of documents (e.g., PDF manuals, delivery guidelines).
@@ -31,7 +31,7 @@ This agent:
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🎙 **Voice Interaction** – Listen & speak in multiple languages
 - 🌍 **Multilingual Support** – Hindi, English
@@ -43,7 +43,7 @@ This agent:
 
 ---
 
-## 👨‍💻 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -65,3 +65,17 @@ This agent:
 ```bash
 git clone https://github.com/yourusername/RAG-Delivery-Agent.git
 cd RAG-Delivery-Agent
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Set Environment Variables
+Create a .env file:
+
+```bash
+GOOGLE_API_KEY=your_google_api_key
+```
