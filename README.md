@@ -24,7 +24,7 @@ It combines **Retrieval-Augmented Generation (RAG)** with **multilingual voice i
 
 This agent:
 - Listens to the user via speech recognition  
-- Understands their query in Hindi, English, Marathi, or Gujarati  
+- Understands their query in Hindi, English
 - Retrieves relevant context from a vector store (FAISS)  
 - Generates a natural response using Google Gemini or another LLM  
 - Speaks the answer back in the same language
