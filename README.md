@@ -34,7 +34,7 @@ This agent:
 ## 🚀 Features
 
 - 🎙 **Voice Interaction** – Listen & speak in multiple languages
-- 🌍 **Multilingual Support** – Hindi, English, Marathi, Gujarati (auto-detected)
+- 🌍 **Multilingual Support** – Hindi, English
 - 📄 **Document-Aware** – Reads PDF documents & answers using RAG
 - 🧠 **FAISS Vector Search** – Fast semantic retrieval
 - 🤖 **Google Gemini Integration** – For high-quality answers
@@ -53,7 +53,7 @@ This agent:
 | **Embeddings** | Google Generative AI embeddings |
 | **Speech Recognition** | SpeechRecognition (Google STT API) |
 | **Text-to-Speech** | gTTS |
-| **File Processing** | PyPDF2 / pdfplumber |
+| **File Processing** | PyPDF |
 | **Language Detection** | langdetect |
 
 ---
