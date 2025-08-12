@@ -74,7 +74,7 @@ def load_pdf(file_path):
     chunks = splitter.split_documents(pages)
     return chunks
 
-pdf_path = "RAG_Agent.pdf"
+pdf_path = "Make your own document and then upload it here in pdf format."
 documents = load_pdf(pdf_path)
 print(f"Loaded and split into {len(documents)} chunks.")
 
