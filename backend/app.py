@@ -27,7 +27,7 @@ app = FastAPI(title="Voice AI Assistant", description="AI Assistant with voice i
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -74,7 +74,7 @@ def load_pdf(file_path):
     chunks = splitter.split_documents(pages)
     return chunks
 
-pdf_path = "Make your own document and then upload it here in pdf format."
+pdf_path = "RAG_Document.pdf"
 documents = load_pdf(pdf_path)
 print(f"Loaded and split into {len(documents)} chunks.")
 
