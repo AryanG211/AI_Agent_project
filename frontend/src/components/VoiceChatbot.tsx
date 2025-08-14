@@ -156,7 +156,7 @@ const VoiceChatbot = () => {
       await initializeAudioContext();
       
       // Call the actual backend API
-      const response = await fetch('http://localhost:8000/start-conversation', {
+      const response = await fetch('https://rag-based-delivery-agent.onrender.com/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -187,7 +187,7 @@ const VoiceChatbot = () => {
   const stopConversation = async () => {
     try {
       // Call the actual backend API
-      const response = await fetch('http://localhost:8000/stop-conversation', {
+      const response = await fetch('https://rag-based-delivery-agent.onrender.com/stop-conversation', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
