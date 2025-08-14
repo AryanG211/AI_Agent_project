@@ -27,8 +27,8 @@ app = FastAPI(title="Voice AI Assistant", description="AI Assistant with voice i
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
+    allow_origins=["https://rag-based-delivery-agent.vercel.app"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
